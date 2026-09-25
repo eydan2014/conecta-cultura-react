@@ -1,0 +1,2 @@
+# Conecta Cultura - React + Vite
+

@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f7f8fa;
+}
+
+.hero {
+  background: linear-gradient(135deg, #eaf2ff, #ffffff);
+  border: 1px solid #dbe7ff;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.filtro-categoria {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .filtro-categoria {
+    width: 240px;
+  }
+}
