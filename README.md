@@ -1,1 +1,0 @@
-# conecta-cultura-react
